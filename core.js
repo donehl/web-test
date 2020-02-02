@@ -1,7 +1,6 @@
 function onLoad() {
-  console.log('loading...');
+    console.log('loading...');
 }
-
-window.onload = () => {
-  onLoad();
-}
+window.onload = function () {
+    onLoad();
+};
